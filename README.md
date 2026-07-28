@@ -222,13 +222,13 @@ htdocs
 
 ---
 
-# 🗄 Database Setup
+## 🗄 Database Setup
 
 This repository includes
 
-```
+
 db_hms.sql
-```
+
 
 Import this SQL file into phpMyAdmin.
 
@@ -238,59 +238,59 @@ Import this SQL file into phpMyAdmin.
 
 Open
 
-```
+
 http://localhost/phpmyadmin
-```
+
 
 Create a new database named
 
-```
+
 db_hms
-```
+
 
 After creating it
 
 Click
 
-```
+
 Import
-```
+
 
 Select
 
-```
+
 db_hms.sql
-```
+
 
 Click
 
-```
+
 Go
-```
+
 
 Wait until importing is completed.
 
 ---
 
-# ⚙ Database Configuration
+## ⚙ Database Configuration
 
 Open
 
-```
+
 application/config/database.php
-```
+
 
 Update database credentials if necessary.
 
 Example
 
-```php
+php
 'hostname' => 'localhost',
 'username' => 'root',
 'password' => '',
 'database' => 'db_hms',
 'dbdriver' => 'mysqli',
-```
+
 
 ---
 
